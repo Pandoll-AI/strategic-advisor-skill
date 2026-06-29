@@ -1,0 +1,4 @@
+interface:
+  display_name: "Strategic Advisor"
+  short_description: "근거, 리스크, 실행계획까지 점검하는 전략 자문"
+  default_prompt: "Use $strategic-advisor to evaluate this decision with evidence, risks, options, and a concrete action plan."
