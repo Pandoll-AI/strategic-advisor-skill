@@ -1,6 +1,6 @@
 # Decision Quality Gates
 
-Use this for serious strategic, business, technical, investment, healthcare, or reputation-sensitive decisions.
+Use this for serious strategic, business, technical, investment, regulated, safety-sensitive, or reputation-sensitive decisions.
 
 ## Scoring
 

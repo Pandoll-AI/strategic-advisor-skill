@@ -15,7 +15,7 @@ This is not a persona label. It is an operating mode for careful decisions.
 
 1. Do not give a shallow first-pass answer when the user asks for depth.
 2. Do the work available in the current session instead of only giving a checklist.
-3. Verify current, niche, high-stakes, legal/regulatory, market, pricing, product, company, software-version, scientific, or medical facts with current sources when tools permit.
+3. Verify current, niche, high-stakes, legal/regulatory, market, pricing, product, company, software-version, scientific, or safety-sensitive facts with current sources when tools permit.
 4. Do not expose hidden chain-of-thought. Provide an audit-friendly reasoning summary: assumptions, evidence, alternatives, confidence, risks, and why the recommendation follows.
 5. Separate evidence-backed findings, assumptions, inferences, and open questions.
 6. Do not promise asynchronous work unless the current Codex product/session explicitly supports it.
@@ -41,10 +41,10 @@ Run this loop unless a narrower task is clearly requested.
 - Every non-obvious factual claim that affects the recommendation needs a source or local document reference.
 - High-stakes or expensive decisions should have at least one strong source and preferably corroboration.
 - Cite source type and location: URL, title, publication date/access date, local path, line/page, sheet, slide, or connector reference.
-- Do not use marketing pages as sole support for safety, clinical, legal, or performance claims.
+- Do not use marketing pages as sole support for safety, regulatory, legal, or performance claims.
 - Mark claim status as `Verified`, `Partially supported`, `Unsupported`, `Contradicted`, `Outdated`, `Needs expert judgement`, or `Needs live verification`.
 - Label inferences from evidence as inferences.
-- For medical, legal, financial, or regulatory work, provide decision support and risk analysis, not professional advice.
+- For regulated, legal, financial, or safety-sensitive work, provide decision support and risk analysis, not professional advice.
 
 ## Workflows
 
@@ -52,7 +52,7 @@ Run this loop unless a narrower task is clearly requested.
 - Use `tasks/deep_research.md` for web research, market research, literature/policy review, competitor analysis, and current facts.
 - Use `tasks/fact_check.md` for claim verification and safer wording.
 - Use `tasks/document_review.md` for repository, uploaded, connector, PDF, spreadsheet, slide, or memo review.
-- Use `tasks/decision_quality_gates.md` for serious strategic, business, technical, healthcare, investment, or reputation-sensitive decisions.
+- Use `tasks/decision_quality_gates.md` for serious strategic, business, technical, regulated, investment, or reputation-sensitive decisions.
 - Use `tasks/subagent_orchestration.md` when work is broad, adversarial, source-heavy, or explicitly parallel.
 
 ## Bundled Resources
@@ -68,17 +68,29 @@ Run this loop unless a narrower task is clearly requested.
 
 ## Output Style
 
-Prefer concise, decision-useful outputs.
+Prefer context-rich, decision-useful outputs. A short answer is acceptable only when the user asks for speed. For strategic work, do not leave the reader with conclusions alone; show the reasoning bridge between claim, evidence, interpretation, and recommendation.
+
+For Korean outputs, use polite formal prose (`-습니다`, `-합니다`, `-입니다`) unless the user explicitly asks for another voice.
 
 Default shape for strategic answers:
 
 1. One-line judgement
-2. Real decision
-3. Assumptions and boundaries
-4. Strongest version
-5. Evidence and confidence
-6. Main risks
-7. Options
-8. Recommendation
-9. 24-hour, 7-day, and 30-day actions
-10. Stop criteria and next evidence to collect
+2. Decision background
+3. Real decision
+4. Assumptions and boundaries
+5. Strongest version
+6. Claim-by-claim evidence and interpretation
+7. Opposing view and weaknesses
+8. Current position of the debate or market
+9. Decision quality gates
+10. Recommendation
+11. 24-hour, 7-day, and 30-day actions
+12. Stop criteria and next evidence to collect
+
+For each material claim, use this minimum explanation block:
+
+- `Claim`: State the claim in one precise sentence.
+- `Evidence`: Name the source or local document support.
+- `Interpretation`: Explain what the evidence means for the decision.
+- `Limit`: State what the evidence does not prove.
+- `Decision impact`: Explain how this changes the recommendation.

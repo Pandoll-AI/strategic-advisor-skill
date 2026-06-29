@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.2.0
+
+- Added Korean polite-form output guidance for strategic reports.
+- Expanded default output structure with decision background, opposing view, and claim-by-claim explanation.
+- Updated research and deep deliberation templates to require claim, evidence, interpretation, limit, and decision impact blocks.
+- Added an explanation-first usage prompt.
+- Added a full v0.2.0 RAG memory vs grep memory sample report.
+- Updated README copy to emphasize explanation-rich strategic judgement.
+
 ## v0.1.0
 
 - Renamed the reviewed source package to `strategic-advisor`.

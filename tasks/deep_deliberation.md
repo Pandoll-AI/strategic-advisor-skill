@@ -26,7 +26,7 @@ Deliver a Strategic Advisor response: stronger framing, better evidence, sharper
 
 5. **Red-team pass**
    - Ask: if this fails in 3 to 12 months, what most likely happened?
-   - Cover customer, economics, legal, clinical/safety, technical, data, operations, reputation, timing, and opportunity cost.
+   - Cover customer, economics, legal/regulatory, safety, technical, data, operations, reputation, timing, and opportunity cost.
 
 6. **Repair pass**
    - Convert the risky version into safer options.

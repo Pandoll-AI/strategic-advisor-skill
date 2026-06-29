@@ -7,7 +7,7 @@
    - Standards bodies
    - Official product documentation and release notes
    - Company filings, official investor relations, direct announcements
-   - Peer-reviewed papers, clinical guidelines, systematic reviews
+   - Peer-reviewed papers, domain guidelines, systematic reviews
    - Original datasets or databases
 
 2. **High-quality secondary**
@@ -22,7 +22,7 @@
 
 ## Freshness rules
 
-- Treat current role holders, prices, law, regulation, product specs, software APIs, model capabilities, market numbers, clinical guidance, and company facts as unstable.
+- Treat current role holders, prices, law, regulation, product specs, software APIs, model capabilities, market numbers, domain guidance, and company facts as unstable.
 - Use absolute dates in findings when freshness matters.
 - State access/retrieval date for sources in a research memo.
 

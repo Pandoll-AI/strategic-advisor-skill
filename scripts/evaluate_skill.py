@@ -44,6 +44,7 @@ REQUIRED_FILES = [
     "scripts/quality_gate.py",
     "scripts/evaluate_skill.py",
     "examples/usage_prompts.md",
+    "examples/strategic_advisor_rag_vs_grep_memory.md",
     "manifest.txt",
 ]
 
@@ -85,7 +86,7 @@ def parse_frontmatter(text: str) -> tuple[bool, dict[str, str]]:
 
 
 def package_files(root: Path) -> set[str]:
-    ignored = {".git", "__pycache__"}
+    ignored = {".git", "__pycache__", "outputs"}
     files: set[str] = set()
     for path in root.rglob("*"):
         if not path.is_file():
