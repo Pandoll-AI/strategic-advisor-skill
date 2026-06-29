@@ -14,8 +14,8 @@
 - Renamed the reviewed source package to `strategic-advisor`.
 - Converted the package into a root-level global Codex skill.
 - Removed duplicated visible/runtime skill copies from the original archive structure.
-- Added Korean public README content in the style of the Publish Skill repository.
-- Added a Pandoll pixel dot style hero image at `assets/hero.png`.
+- Added Korean public README content.
+- Added a pixel dot style hero image at `assets/hero.png`.
 - Updated scripts, prompts, references, and evaluation checks for the Strategic Advisor positioning.
 - Replaced the first generated hero with an image-generation output PNG.
 - Reworked README copy to avoid negation-led positioning and keep the explanation positive.
